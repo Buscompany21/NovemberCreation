@@ -1,5 +1,5 @@
 # NovemberCreation: Developing a light-weight Digital Forensics environment for investigative use.
-Brian Busco, Ethan Thach, Kaden Makechnie-Hardy, Justin Mott, Quincy Taylor
+Brian Busco, Ethan Thach, Kaden Makechnie-Hardy, Justin Mott, Quincy Taylor, Braden Muns
 
 ## Outline
 
