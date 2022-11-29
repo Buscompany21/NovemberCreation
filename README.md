@@ -2,10 +2,12 @@
 Brian Busco, Ethan Thach, Kaden Makechnie-Hardy, Justin Mott, Quincy Taylor, Braden Muns
 
 ## Outline
+Comparison to SIFT
+Why each application?
 
 ## Files
 
-Docker Config File
+### Docker Config File
 ```
 #Download base image ubuntu 20.04
 FROM ubuntu:20.04
@@ -79,3 +81,4 @@ This option looks like this:
 
 
 ## Test Cases
+The Docker configuration file includes commands to provide the version information about each of the applications. 
