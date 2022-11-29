@@ -5,7 +5,7 @@ Brian Busco, Ethan Thach, Kaden Makechnie-Hardy, Justin Mott, Quincy Taylor, Bra
 
 ## Files
 
-### Docker Config File
+Docker Config File
 ```
 #Download base image ubuntu 20.04
 FROM ubuntu:20.04
