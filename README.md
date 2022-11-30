@@ -3,6 +3,7 @@ Brian Busco, Ethan Thach, Kaden Makechnie-Hardy, Justin Mott, Quincy Taylor, Bra
 
 ## Outline
 Comparison to SIFT
+
 Why each application?
 
 ## Files
@@ -81,4 +82,4 @@ This option looks like this:
 
 
 ## Test Cases
-The Docker configuration file includes commands to provide the version information about each of the applications. The version number of all the tools is stored in ToolVersions.txt in within the home directory.
+The Docker configuration file includes commands to provide the version information about each of the applications. When building the configuration for Docker, the successful installation of each of the applications specified will be indicated by the running of the version information. The version number of all the tools is stored in ToolVersions.txt within the home directory.
