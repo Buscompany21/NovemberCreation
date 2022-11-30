@@ -24,3 +24,19 @@ RUN apt install -y tcpdump
 
 # Install Sleuth Kit
 RUN apt install sleuthkit -y
+
+# Output versions
+echo "Nmap" > ToolVersions.txt
+nmap --version >> ToolVersions.txt
+
+echo "--------------------------" >> ToolVersions.txt
+echo "Tshark" >> ToolVersions.txt
+tshark --version >> ToolVersions.txt
+
+echo "--------------------------" >> ToolVersions.txt
+echo "tcpdump" >> ToolVersions.txt
+tcpdump --version >> ToolVersions.txt
+
+echo "--------------------------" >> ToolVersions.txt
+echo "sleuthkit" >> ToolVersions.txt
+fls -V >> ToolVersions.txt
