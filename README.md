@@ -81,4 +81,4 @@ This option looks like this:
 
 
 ## Test Cases
-The Docker configuration file includes commands to provide the version information about each of the applications. 
+The Docker configuration file includes commands to provide the version information about each of the applications. The version number of all the tools is stored in ToolVersions.txt in within the home directory.
