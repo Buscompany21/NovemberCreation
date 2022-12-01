@@ -96,7 +96,7 @@ This option looks like this:
 
 
 ## Test Cases
-On configuration of the image, a log of the tools and corresponding version information is stored in ToolVersions.txt within the root directory. When a container is launched, ToolVersions.txt is outputted to the screen and the container is run in detached mode to keep the workstation open.
+On configuration of the image, a log of the tools and corresponding version information is stored in ToolVersions.txt within the root directory. When a container is launched, ToolVersions.txt is outputted to the screen and the container is run in detached mode to keep the workstation open. The correct version information included in the ToolVersions.txt file demonstrates that the applications have been correctly installed and can be utilized by users of the light-weight digital forensics environment.
 
 Example version output on launch of container:
 
