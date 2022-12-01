@@ -5,9 +5,9 @@ Brian Busco, Ethan Thach, Kaden Makechnie-Hardy, Justin Mott, Quincy Taylor, Bra
 Comparison to SIFT
 In 2007 a researcher at SANs created the SIFT Workstation to aid in digital forensic investigations by providing the necessary tooling in a single location. The SIFT workstation is a collection of open-source IR and forensic tools designed to perform investigations including tools for packet inspection and file system analysis.
 
-Similar to the SIFT workstation developed by SANs, this Docker configuration provides common tooling for digital forensics investigations. A list of the applications included in the configurations and the justification for their inclusion is included below.
+Similar to the SIFT workstation developed by SANs, this Docker configuration provides common tooling for digital forensics investigations. While the SIFT Workstation contains tools for analyzing file systems, network evidence, and memory images, our November Creation focuses on network and file system forensics. A list of the applications included in the configurations and the justification for their inclusion is included below.
 ### nmap
-Nmap is a very light-weight command line tool for network scanning and mapping. Nmap allows users to detect hosts and services on a network by sending packets and analyzing the responses. A key digital forensics principle is to know your assets. It is crucial for organizations to inventory enterprise networks.
+Nmap is a light-weight command line tool for network scanning and mapping. Nmap allows users to detect hosts and services on a network by sending packets and analyzing the responses. A key digital forensics principle is to know your assets. It is crucial for organizations to inventory enterprise networks.
 ### TShark
 TShark is a command line tool that can capture and inspect packets. Information about network traffic can provide crucial information during a forensics investigation. TShark is valuable because it has similar capabilities to the Wireshark GUI including the ability to detect, inspect, and write to the the same file types providing flexibility during the investigation.
 ### tcpdump
