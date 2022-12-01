@@ -11,32 +11,30 @@ the PHP-FPM and Nginx Services."
 ARG DEBIAN_FRONTEND=noninteractive
 
 # Update Ubuntu Software repository
-RUN apt update
+RUN apt update && \
 
 # Install Nmap tool
-RUN apt install nmap -y
+apt install nmap -y && \
 
 # Install Tshark
-RUN apt install -y tshark
+apt install -y tshark && \
 
 #Install TCPdump
-RUN apt install -y tcpdump
+apt install -y tcpdump && \
 
 # Install Sleuth Kit
-RUN apt install sleuthkit -y
+apt install sleuthkit -y && \
 
 # Output versions
-echo "Nmap" > ToolVersions.txt
-nmap --version >> ToolVersions.txt
+echo "--------------------------" >> ToolVersions.txt && \
+nmap --version >> ToolVersions.txt && \
 
-echo "--------------------------" >> ToolVersions.txt
-echo "Tshark" >> ToolVersions.txt
-tshark --version >> ToolVersions.txt
+echo "--------------------------" >> ToolVersions.txt && \
+tshark --version >> ToolVersions.txt && \
 
-echo "--------------------------" >> ToolVersions.txt
-echo "tcpdump" >> ToolVersions.txt
-tcpdump --version >> ToolVersions.txt
-
-echo "--------------------------" >> ToolVersions.txt
-echo "sleuthkit" >> ToolVersions.txt
+echo "--------------------------" >> ToolVersions.txt && \
 fls -V >> ToolVersions.txt
+
+CMD tcpdump --version >> ToolVersions.txt && \
+cat ToolVersions.txt && \
+tail -f /dev/null
