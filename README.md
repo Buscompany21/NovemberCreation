@@ -84,4 +84,6 @@ This option looks like this:
 ## Test Cases
 On configuration of the image, a log of the tools and corresponding version information is stored in ToolVersions.txt within the root directory. When a container is launched, ToolVersions.txt is outputted to the screen and the container is run in detached mode to keep the workstation open.
 
-<img width="983" alt="image" src="https://user-images.githubusercontent.com/28959765/204937333-e17e304d-fe44-473f-9a97-e1d9c0918626.png">
+Version output on launch of container:
+
+<img width="682" alt="image" src="https://user-images.githubusercontent.com/28959765/204937333-e17e304d-fe44-473f-9a97-e1d9c0918626.png">
