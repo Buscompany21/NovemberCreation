@@ -44,7 +44,7 @@ STEP 1:
 
 Download the Dockerfile to your working directory.
 
-<img width="682" alt="image" src="https://user-images.githubusercontent.com/67716541/204440009-38101024-e02c-41fb-bf01-0cbfaa7fc0dd.png">
+<img width="1290" alt="image" src="https://user-images.githubusercontent.com/67716541/204440009-38101024-e02c-41fb-bf01-0cbfaa7fc0dd.png">
 
 STEP 2:
 
@@ -54,7 +54,7 @@ Build the new container image with this command:
 
 After the build, you should see this:
 
-<img width="682" alt="image" src="https://user-images.githubusercontent.com/67716541/204440745-f2826868-c0ca-4e69-a5a4-e480d862f0fe.png">
+<img width="1290" alt="image" src="https://user-images.githubusercontent.com/67716541/204440745-f2826868-c0ca-4e69-a5a4-e480d862f0fe.png">
 
 STEP 3:
 
@@ -64,7 +64,7 @@ Now, run this command to start a real container based on the image you just buil
 
 You should see this when you run the command:
 
-<img width="682" alt="image" src="https://user-images.githubusercontent.com/67716541/204442672-2b00c7f8-b6ea-41ea-ae8f-c933f2789522.png">
+<img width="1290" alt="image" src="https://user-images.githubusercontent.com/67716541/204442672-2b00c7f8-b6ea-41ea-ae8f-c933f2789522.png">
 
 STEP 4:
 
@@ -78,12 +78,12 @@ Or you may more directly access the machine by copying the output from `run` and
 
 This option looks like this:
 
-<img width="983" alt="image" src="https://user-images.githubusercontent.com/67716541/204443366-1ba4519d-8a12-4714-96cc-49ec9ed59645.png">
+<img width="1290" alt="image" src="https://user-images.githubusercontent.com/67716541/204443366-1ba4519d-8a12-4714-96cc-49ec9ed59645.png">
 
 
 ## Test Cases
 On configuration of the image, a log of the tools and corresponding version information is stored in ToolVersions.txt within the root directory. When a container is launched, ToolVersions.txt is outputted to the screen and the container is run in detached mode to keep the workstation open.
 
-Version output on launch of container:
+Example version output on launch of container:
 
-<img width="682" alt="image" src="https://user-images.githubusercontent.com/28959765/204937333-e17e304d-fe44-473f-9a97-e1d9c0918626.png">
+<img width="1290" alt="image" src="https://user-images.githubusercontent.com/28959765/204937333-e17e304d-fe44-473f-9a97-e1d9c0918626.png">
