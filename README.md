@@ -3,6 +3,7 @@ Brian Busco, Ethan Thach, Kaden Makechnie-Hardy, Justin Mott, Quincy Taylor, Bra
 
 ## Outline
 Comparison to SIFT
+
 In 2007 a researcher at SANs created the SIFT Workstation to aid in digital forensic investigations by providing the necessary tooling in a single location. The SIFT workstation is a collection of open-source IR and forensic tools designed to perform investigations including tools for packet inspection and file system analysis.
 
 Similar to the SIFT workstation developed by SANs, this Docker configuration provides common tooling for digital forensics investigations. While the SIFT Workstation contains tools for analyzing file systems, network evidence, and memory images, our November Creation focuses on network and file system forensics. A list of the applications included in the configurations and the justification for their inclusion is included below.
